@@ -7,31 +7,25 @@ import os
 
 from setuptools import setup
 
-import PooledProcessMixIn
+import pooledProcessMixin
 
-setup(name='PooledProcessMixIn',
-      version=PooledProcessMixIn.__version__,
+setup(name='pooledProcessMixIn',
+      version='0.0.1',
       description='A Pool of processes and threads Mix-in for socketserver.',
-      long_description=PooledProcessMixIn.__doc__,
-      author=PooledProcessMixIn.__author__,
-      author_email='alsadi@gmail.com',
-      url='https://github.com/muayyad-alsadi/python-PooledProcessMixIn',
-      py_modules=['PooledProcessMixIn'],
-      data_files=[('', ('README.md','TODO')), ('demos', ('demos/demo.py', 'demos/wsgi-demo.py'))],
+      long_description=pooledProcessMixin.__doc__,
+      author='Oleg Lupats',
+      author_email='oleglupats@gmail.com',
+      url='https://github.com/oleglpts/python-PooledProcessMixIn',
+      packages=['pooledProcessMixin'],
+      data_files=[('', ('README.md', 'TODO')), ('examples', ('examples/demo.py', 'examples/wsgi-demo.py'))],
       license='PSFL',
-      platforms = 'any',
-      classifiers=['Development Status :: 4 - Beta',
-        'Intended Audience :: Developers',
-        'License :: OSI Approved :: Python Software Foundation License',
-        'Topic :: Internet :: WWW/HTTP :: Dynamic Content :: CGI Tools/Libraries',
-        'Topic :: Internet :: WWW/HTTP :: HTTP Servers',
-        'Topic :: Internet :: WWW/HTTP :: WSGI :: Server',
-        'Topic :: Software Development :: Libraries',
-        'Programming Language :: Python :: 2.4',
-        'Programming Language :: Python :: 2.5',
-        'Programming Language :: Python :: 2.6',
-        'Programming Language :: Python :: 2.7',
-        'Programming Language :: Python :: 3'],
-     )
-
-
+      platforms='any',
+      classifiers=['License :: OSI Approved :: Python Software Foundation License',
+                   'Topic :: Internet :: WWW/HTTP :: Dynamic Content :: CGI Tools/Libraries',
+                   'Topic :: Internet :: WWW/HTTP :: HTTP Servers',
+                   'Topic :: Internet :: WWW/HTTP :: WSGI :: Server',
+                   'Topic :: Software Development :: Libraries',
+                   'Programming Language :: Python :: 3',
+                   'Programming Language :: Python :: 3.5',
+                   ],
+      )

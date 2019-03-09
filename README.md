@@ -19,7 +19,7 @@ This module has no external dependencies other than the standard python library.
 
 To get the latest development snapshot type the following command
 
-git clone https://github.com/muayyad-alsadi/python-PooledProcessMixIn.git
+git clone https://github.com/oleglpts/python-PooledProcessMixIn
 
 Example
 -------
