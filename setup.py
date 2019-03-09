@@ -9,7 +9,7 @@ from setuptools import setup
 
 import pooledProcessMixin
 
-setup(name='pooledProcessMixIn',
+setup(name='pooled-ProcessMixIn',
       version='0.0.1',
       description='A Pool of processes and threads Mix-in for socketserver.',
       long_description=pooledProcessMixin.__doc__,
